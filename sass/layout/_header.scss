@@ -1,0 +1,26 @@
+.header {
+  background: $color-light;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 15px 0 17px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__buttons.button {
+  margin-left: 14px;
+}
+.header__buttons>.button:last-child {
+  margin-left: 0;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+.navigation__link {
+  list-style: none;
+}

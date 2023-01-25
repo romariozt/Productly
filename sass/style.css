@@ -1,0 +1,142 @@
+h1 {
+  font-family: "Poppins", "Verdana", sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", "Verdana", sans-serif;
+}
+
+h1 {
+  font-size: 4.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 5.4rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 4.6rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 3.4rem;
+}
+
+h4 {
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+
+.button {
+  font-family: "Open Sans", "Verdana", sans-serif;
+  padding: 11px 25px 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-style: 1.6rem;
+  line-height: 2.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.button__bordered {
+  background: #FFFFFF;
+  border: 1px solid #D7D7D7;
+  color: #544837;
+}
+
+.button__bordered:hover {
+  background: #BCD0E5;
+  border-color: #BCD0E5;
+}
+
+.button__colored {
+  background: #FF9900;
+  color: #FFFFFF;
+  border: 1px solid #FF9900;
+}
+
+.button__colored:hover {
+  background: #FF7549;
+  border-color: #FF7549;
+}
+
+.wrapper {
+  max-width: 1197px;
+  margin: auto;
+}
+
+.header {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  padding: 15px 0 17px 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__buttons.button {
+  margin-left: 14px;
+}
+
+.header__buttons > .button:last-child {
+  margin-left: 0;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.navigation__link {
+  list-style: none;
+}
+
+.contact-us {
+  background: #FFEEE1;
+}
+
+.promo {
+  padding: 30px 0;
+}
+
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo__content {
+  padding-right: 65px;
+}
+
+.promo__buttons > * {
+  margin-right: 44px;
+}
+
+/*# sourceMappingURL=style.css.map */
